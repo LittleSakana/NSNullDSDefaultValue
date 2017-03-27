@@ -10,20 +10,28 @@
 
 @implementation NSNull (Handle)
 
-- (BOOL)boolValue{
+- (BOOL)boolValue {
     return NO;
 }
 
-- (NSInteger)length{
+- (NSInteger)length {
     return 0;
 }
 
-- (NSString*)stringValue{
+- (NSString*)stringValue {
     return @"";
 }
 
-- (float)floatValue{
+- (float)floatValue {
     return 0;
+}
+
+- (NSString *)description {
+    return @"";
+}
+
+- (id)objectForKey:(id)key {
+    return nil;
 }
 
 @end

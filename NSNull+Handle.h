@@ -18,4 +18,8 @@
 
 - (float)floatValue;
 
+- (NSString *)description;
+
+- (id)objectForKey:(id)key;
+
 @end
